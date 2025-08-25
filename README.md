@@ -33,25 +33,25 @@ git clone https://github.com/yourusername/Heart-Disease-Project.git
 
 📊 Analysis Workflow
 
-1. Data Loading
+Performed data cleaning and preprocessing (renamed columns, handled missing values, removed duplicates) on a heart disease dataset with 3,069 records.
 
-Read the dataset from Excel into a pandas DataFrame.
+Conducted exploratory data analysis (EDA) to uncover trends and risk factors using countplots, histograms, and heatmaps.
 
-2. Exploratory Data Analysis (EDA)
+Found that 40% of patients had heart disease (1,239 out of 3,069), with cases most common in the 50–80 years age group and among males.
 
-Checking missing values, data types, and summary statistics.
+Identified risk factors:
 
-Understanding distributions of key features.
+Chest pain: atypical angina most common, but chest pain type alone did not clearly separate diseased vs non-diseased.
 
-3. Data Visualization
+Resting BP: 72.69% of patients at risk (≥120 mmHg).
 
-Histograms, bar plots, and correlation heatmaps.
+Cholesterol: 70% had borderline or high cholesterol, strongly linked with heart disease.
 
-Comparing patterns between patients with and without heart disease.
+BMI & Lifestyle: 39% obese, 35% smokers → both emerged as significant risk contributors.
 
-4. Insights
+Fasting blood sugar: Higher sugar levels more frequent in diseased patients, but most cases fell in the normal range.
 
-Identifying key factors related to heart disease occurrence.
+Created data visualizations (countplots, histplots, subplots, heatmaps) to communicate insights effectively.
 
 📸 Example Visualizations
 
@@ -60,6 +60,8 @@ Age distribution of patients
 Chest pain type vs Heart Disease
 
 Correlation heatmap of all features
+
+Subplots of various features
 
 📜 License
 
