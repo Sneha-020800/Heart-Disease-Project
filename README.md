@@ -5,7 +5,39 @@ The goal is to perform *Exploratory Data Analysis (EDA)*, create visualizations,
 
 ## 📂 Project Structure
 - Heart_Disease_Project.ipynb → Jupyter Notebook containing all the code, analysis, and visualizations.  
-- heart_disease_dataset.xlsx → Dataset used for analysis.  
+- heart_disease_dataset.xlsx → Dataset used for analysis.
+
+## 📊 Analysis Workflow
+
+Performed data cleaning and preprocessing (renamed columns, handled missing values, removed duplicates) on a heart disease dataset with 3,069 records.
+
+Conducted exploratory data analysis (EDA) to uncover trends and risk factors using countplots, histograms, and heatmaps.
+
+Found that 40% of patients had heart disease (1,239 out of 3,069), with cases most common in the 50–80 years age group and among males.
+
+Identified risk factors:
+
+Chest pain: atypical angina most common, but chest pain type alone did not clearly separate diseased vs non-diseased.
+
+Resting BP: 72.69% of patients at risk (≥120 mmHg).
+
+Cholesterol: 70% had borderline or high cholesterol, strongly linked with heart disease.
+
+BMI & Lifestyle: 39% obese, 35% smokers → both emerged as significant risk contributors.
+
+Fasting blood sugar: Higher sugar levels more frequent in diseased patients, but most cases fell in the normal range.
+
+Created data visualizations (countplots, histplots, subplots, heatmaps) to communicate insights effectively.  
+
+## 📸 Example Visualizations
+
+Age distribution of patients
+
+Chest pain type vs Heart Disease
+
+Correlation heatmap of all features
+
+Subplots of various features
 
 ## ⚙ Installation & Requirements
 To run this project locally, install the following dependencies:
@@ -31,44 +63,12 @@ git clone https://github.com/yourusername/Heart-Disease-Project.git
 
 3. Run the notebook Heart_Disease_Project.ipynb step by step.
 
-📊 Analysis Workflow
-
-Performed data cleaning and preprocessing (renamed columns, handled missing values, removed duplicates) on a heart disease dataset with 3,069 records.
-
-Conducted exploratory data analysis (EDA) to uncover trends and risk factors using countplots, histograms, and heatmaps.
-
-Found that 40% of patients had heart disease (1,239 out of 3,069), with cases most common in the 50–80 years age group and among males.
-
-Identified risk factors:
-
-Chest pain: atypical angina most common, but chest pain type alone did not clearly separate diseased vs non-diseased.
-
-Resting BP: 72.69% of patients at risk (≥120 mmHg).
-
-Cholesterol: 70% had borderline or high cholesterol, strongly linked with heart disease.
-
-BMI & Lifestyle: 39% obese, 35% smokers → both emerged as significant risk contributors.
-
-Fasting blood sugar: Higher sugar levels more frequent in diseased patients, but most cases fell in the normal range.
-
-Created data visualizations (countplots, histplots, subplots, heatmaps) to communicate insights effectively.
-
-📸 Example Visualizations
-
-Age distribution of patients
-
-Chest pain type vs Heart Disease
-
-Correlation heatmap of all features
-
-Subplots of various features
-
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and share this work with proper attribution.
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Sneha Dhingra
 A data science enthusiast exploring health-related datasets to gain practical insights.
