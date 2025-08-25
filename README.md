@@ -42,7 +42,6 @@ Subplots of various features
 ## ⚙ Installation & Requirements
 To run this project locally, install the following dependencies:
 
-```bash
 pip install pandas matplotlib seaborn jupyter
 
 Required libraries:
